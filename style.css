@@ -160,6 +160,93 @@ header .footer p a{
     left: 0;
 }
 
-
-
 /* === Header End === */
+
+/* ================================================ */
+
+/* === Main Section === */
+
+main{
+    margin-left: 300px;
+    background-color: var(--bgColor);
+    transition: 0.3s;
+}
+
+@media only screen and (max-width: 1050px){
+    main{
+        margin-left: 0;
+    }
+}
+
+/* ---=== Home Section ===--- */
+#home{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../Portfolio/asset/seo-earn-more-as-developer.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px;
+    position: relative;
+}
+/* overlay */
+#home::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.431);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#home .home-row{
+    z-index: 1;
+}
+
+#home .home-row h1{
+    font-size: 60px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: -1px;
+    margin-bottom: 10px;
+    line-height: 70px;
+}
+
+#home .home-row h1 span{
+    color: var(--themeColor);
+}
+
+#home .home-row p{
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#home .home-row p span{
+    border-bottom: 4px solid var(--themeColor);
+}
+
+/* Mobile View */
+@media only screen and (max-width 670px){
+    #home{
+        padding: 30px;
+    }
+
+    #home .home-row h1{
+        font-size: 35px;
+        letter-spacing: 0;
+        line-height: 50px;
+    }
+
+    #home .home-row h1 br{
+        display: none;
+    }
+
+    #home .home-row p{
+        font-size: 20px;
+        font-weight: 400;
+    }
+}
