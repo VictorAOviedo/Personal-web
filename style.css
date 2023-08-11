@@ -186,7 +186,7 @@ main {
 #home {
     height: 100vh;
     width: 100%;
-    background-image: url(../Portfolio/asset/seo-earn-more-as-developer.jpg);
+    background-image: url(asset/seo-earn-more-as-developer.jpg);
     background-size: cover;
     background-attachment: fixed;
     display: flex;
