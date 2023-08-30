@@ -1,6 +1,75 @@
 {
-    "About-me": {
+    "navBar": {
+        "li1": "Home",
+        "li2": "About Me",
+        "li3": "Jobs and Practices",
+        "li4": "Service",
+        "li5": "Contact"
+    },
+    "about-me": {
         "title": "About me",
-        "description": "Hello and welcome to my portfolio! I'm Victor, a passionate Full Stack Developer with a love for creation and tackling challenges in the IT field. My journey in the realm of development began with an innate curiosity about how technologies interact to breathe life into online applications. My days are brimming with lines of code and the thrill of transforming ideas into functional products. With skills in HTML, CSS, JavaScript, TypeScript, and Java, coupled with experience in the Angular framework, I feel at ease working across all facets of a web project, from user interface to server logic. This portfolio serves as a window into my journey as a Full Stack Developer and the projects where I've invested my passion and skills."
+        "description": "Hello and welcome to my portfolio! I'm Victor, a passionate Full Stack Developer with a love for creation and tackling challenges in the IT field. My journey in the realm of development began with an innate curiosity about how technologies interact to breathe life into online applications. My days are brimming with lines of code and the thrill of transforming ideas into functional products. With skills in HTML, CSS, JavaScript, TypeScript, and Java, coupled with experience in the Angular framework, I feel at ease working across all facets of a web project, from user interface to server logic. This portfolio serves as a window into my journey as a Full Stack Developer and the projects where I've invested my passion and skills.",
+        "sub-title": "My data",
+        "item-1": "Name:",
+        "item-2": "Last name:",
+        "item-3": "Age:",
+        "item-4": "Birthday:",
+        "item-5": "Country:",
+        "item-6": "City:",
+        "item-7": "Phone:",
+        "item-8": "Mail:"
+    },
+    "skills": {
+        "title": "Skills",
+        "description": "I present to you my skills, where I don't just stop at the front-end; my mastery of Java and my experience with the Angular framework enable me to create solid and functional web applications from backend to frontend. I believe in the importance of a strong foundation in both visual design and robust functionality. Accompanying my hard skills are my soft skills. My analytical focus and problem-solving abilities help me break down complex challenges into manageable solutions. As a self-learner, I am passionate about acquiring knowledge and exploring different programming resources and languages."
+    },
+    "education": {
+        "title": "Education",
+        "description": "My educational journey in the field of Information Technology has been a continuous voyage of growth and learning. Over the years, I have delved into various aspects of IT studies, ranging from fundamentals to more specialized areas. Each step of this academic journey has contributed to the construction of a robust foundation of knowledge and skills, and I am committed to continuing to evolve and adapt to changes. Here you will find a summary of my studies in the IT field.",
+        "sub-title-1": "IT Education",
+        "sub-title-2": "Language",
+        "sub-title-1-study-1": "ARGENTINA PROGRAMA #SÉPROGRAMAR",
+        "sub-title-1-study-1-date": "2021",
+        "sub-title-1-study-1-description": "The first stage of Argentina Programa is an introductory course that covers the basic fundamentals of programming: Foundations, Imperative Programming, and Object-Oriented Programming.",
+        "sub-title-1-study-2": "ARGENTINA PROGRAMA #YOPROGRAMO",
+        "sub-title-1-study-2-date": "2021",
+        "sub-title-1-study-2-description": "It's the second stage of Argentina Programa, where knowledge is deepened, and the necessary skills and tools are acquired for a Full-Stack programmer. It delves into topics such as Front-End, dynamic web development, Databases, good programming practices, Java EE, and Spring Boot.",
+        "sub-title-1-study-3": "ALURA ORACLE ONE",
+        "sub-title-1-study-3-date": "2022",
+        "sub-title-1-study-3-description": "It begins with a learning path in regards to Front-End, covering the HTML5 language, CSS3 for styling with Flexbox and Grid designs. Responsive and inclusive layouts are created. And you also learn about the JavaScript and Java languages.",
+        "sub-title-2-study-1": "CUI - CENTRO UNIVERSITARIO DE IDIOMAS",
+        "sub-title-2-study-1-date": "2022",
+        "sub-title-2-study-1-description": "Technical English for Software Developers. Level A1.2 of the Common European Framework of Reference for Languages (CEFR).",
+        "sub-title-2-study-2": "UNC - FACULTY OF LANGUAGES",
+        "sub-title-2-study-2-date": "2022-present",
+        "sub-title-2-study-2-description": "Intensive course offered by the Faculty of Languages at the Universidad Nacional de Córdoba."
+    },
+    "jobsAndPractices": {
+        "title": "Jobs and Practices",
+        "description": "In this space, you will have the opportunity to explore some examples that illustrate the practices and projects I have undertaken. From simple practical exercises to detailed works encompassing both front-end and back-end development.",
+        "job-1": "Dental<br>Clinic",
+        "job-1-description": "This is a web development project in which we have used Angular and leveraged the capabilities of Gsap",
+        "job-1-a": "Go",
+        "job-2": "Portfolio<br>AP",
+        "job-2-description": "Work has been carried out on both the front-end and the back-end. For the interface, Angular has been employed, and on the server, we used Java, Hibernate, and Spring Boot. Techniques have been applied, such as implementing authentication methods, as well as interceptors to manage various aspects of data flow and control.",
+        "job-2-a": "Go",
+        "job-3": "Text<br>Encrypter",
+        "job-3-description": "By integrating HTML, CSS, and JavaScript, we created a functional text encryptor. HTML structured the interface, CSS added style, and JavaScript implemented encryption algorithms.",
+        "job-3-a": "Go",
+        "job-4": "Movie<br>Search",
+        "job-4-description": "A movie search engine, powered by an API, built with Angular. It uses RxJS operators to optimize performance and provide an efficient search experience.",
+        "job-4-a": "Go"
+    },
+    "contact": {
+        "title": "Contact",
+        "description": "If you would like more information about my experience, skills and contributions, please do not hesitate to contact me. I'm excited to explore collaboration opportunities and share how I can add value to your team.",
+        "item-1": "Email:",
+        "item-2": "Call:",
+        "item-3": "Location:",
+        "input-placeholder-name": "Your Name",
+        "input-placeholder-email": "Your Email",
+        "input-placeholder-subjet": "Subject",
+        "input-placeholder-message": "Your Message",
+        "input-value": "Send Message"
     }
 }
