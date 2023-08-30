@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <!--<link rel="stylesheet" href="/en/style.css">-->
     <title>Personal Portfolio Website</title>
 </head>
 
@@ -14,47 +14,22 @@
     <!-- === Header Start === -->
     <header>
 
-        <!-- Lenguage Checkbox -->
+        <!-- Lenguage Json -->
+        <div id="flags" class="languages">
+            <div class="flags">
+                <div class="flags_item" data-language="en">
+                    <img src="/asset/gb.svg" alt="en" class="flags_img">
+                </div>
+            </div>
 
-        <!--
-    <div class="item">
-        <span class="en">English</span>
-        <div class="toggle-pill">           
-          <input type="checkbox" id="pill1" name="check" class="check">
-          <label for="pill1"></label>         
+            <div class="flags">
+                <div class="flags_item" data-language="es">
+                    <img src="/asset/es.svg" alt="es" class="flags_img">
+                </div>
+            </div>
         </div>
-        <span class="es">Spanish</span>
-      </div>
-      -->
 
-      <!-- Lenguage Json -->
-      <div id="flags" class="languages">
-        <div class="flags">
-            <div class="flags_item" data-language="en">
-                <img src="/asset/gb.svg" alt="en" class="flags_img">
-            </div>
-          </div>
-    
-          <div class="flags">
-            <div class="flags_item" data-language="es">
-                <img src="/asset/es.svg" alt="es" class="flags_img">
-            </div>
-          </div>
-      </div>
-      
-    
-
-
-
-
-
-
-
-
-
-        
-
-        <!-- Profile -->      
+        <!-- Profile -->
 
         <div class="profile">
             <img src="asset/foto-Perfil3.jpg" alt="" width="150px">
@@ -71,11 +46,18 @@
         <!-- NavBar -->
         <nav>
             <ul>
-                <li><a href="#home" class="active"><i class="fa-solid fa-house"></i>Home</a></li>
-                <li><a href="#about"><i class="fa-solid fa-user"></i>About Me</a></li>
-                <li><a href="#portfolio"><i class="fa-solid fa-briefcase"></i>Jobs and Practices</a></li>
-                <!--<li><a href="#service"><i class="fa-solid fa-server"></i>Service</a></li>-->
-                <li><a href="#contact"><i class="fa-solid fa-envelope"></i>Contact</a></li>
+                <li><a href="#home" class="active"><i class="fa-solid fa-house"></i>
+                        <p data-section="navBar" data-value="li1">Home</p>
+                    </a></li>
+                <li><a href="#about"><i class="fa-solid fa-user"></i>
+                        <p data-section="navBar" data-value="li2">About me</p>
+                    </a></li>
+                <li><a href="#portfolio"><i class="fa-solid fa-briefcase"></i>
+                        <p data-section="navBar" data-value="li3">Jobs and Practices</p>
+                    </a></li>
+                <li><a href="#contact"><i class="fa-solid fa-envelope"></i>
+                        <p data-section="navBar" data-value="li5">Contact</p>
+                    </a></li>
             </ul>
         </nav>
 
@@ -108,9 +90,10 @@
 
         <!-- === About section start === -->
         <section id="about">
-            <h1 class="sub-heading" data-section="About-me" data-value="title">About Me</h1>
+            <h1 class="sub-heading" data-section="about-me" data-value="title">About Me</h1>
             <div class="divider"></div>
-            <p class="sub-para" data-section="About-me" data-value="description">Hello and welcome to my portfolio! I'm Victor, a passionate Full Stack Developer with a
+            <p class="sub-para" data-section="about-me" data-value="description">Hello and welcome to my portfolio! I'm
+                Victor, a passionate Full Stack Developer with a
                 love for creation and tackling challenges in the IT field. My journey in the realm of development began
                 with an innate curiosity about how technologies interact to breathe life into online applications.
 
@@ -130,19 +113,23 @@
                 <!-- information -->
                 <div class="info-col">
                     <h2>Full-Stack Developer!</h2>
-                    <p class="sub-para">My data</p>
+                    <p class="sub-para" data-section="about-me" data-value="sub-title">My data</p>
                     <div class="icon-list-col">
 
                         <!-- Left-Side list-->
                         <div class="icon-list">
                             <ul>
-                                <li><i class="fa-solid fa-angle-right"></i> <strong>Name:</strong> <span>Victor</span>
+                                <li><i class="fa-solid fa-angle-right"></i> <strong data-section="about-me"
+                                        data-value="item-1">Name:</strong> <span>Victor</span>
                                 </li>
-                                <li><i class="fa-solid fa-angle-right"></i> <strong>Last name:</strong>
+                                <li><i class="fa-solid fa-angle-right"></i> <strong data-section="about-me"
+                                        data-value="item-2">Last name:</strong>
                                     <span>Oviedo</span>
                                 </li>
-                                <li><i class="fa-solid fa-angle-right"></i> <strong>Age:</strong> <span>35</span></li>
-                                <li><i class="fa-solid fa-angle-right"></i> <strong>Birthday:</strong>6 / 09 /
+                                <li><i class="fa-solid fa-angle-right"></i> <strong data-section="about-me"
+                                        data-value="item-3">Age:</strong> <span>35</span></li>
+                                <li><i class="fa-solid fa-angle-right"></i> <strong data-section="about-me"
+                                        data-value="item-4">Birthday:</strong>6 / 09 /
                                     1987<span></span>
                                 </li>
                             </ul>
@@ -151,14 +138,18 @@
                         <!-- Right-Side list-->
                         <div class="icon-list">
                             <ul>
-                                <li><i class="fa-solid fa-angle-right"></i> <strong>Country:</strong>
+                                <li><i class="fa-solid fa-angle-right"></i> <strong data-section="about-me"
+                                        data-value="item-5">Country:</strong>
                                     <span>Argentina</span>
                                 </li>
-                                <li><i class="fa-solid fa-angle-right"></i> <strong>City:</strong> <span>Córdoba</span>
+                                <li><i class="fa-solid fa-angle-right"></i> <strong data-section="about-me"
+                                        data-value="item-6">City:</strong> <span>Córdoba</span>
                                 </li>
-                                <li><i class="fa-solid fa-angle-right"></i> <strong>Phone:</strong> <span>+54 351 6 71
+                                <li><i class="fa-solid fa-angle-right"></i> <strong data-section="about-me"
+                                        data-value="item-7">Phone:</strong> <span>+54 351 6 71
                                         5554</span></li>
-                                <li><i class="fa-solid fa-angle-right"></i> <strong>Mail:</strong>
+                                <li><i class="fa-solid fa-angle-right"></i> <strong data-section="about-me"
+                                        data-value="item-8">Mail:</strong>
                                     <span>victor.oviedo.a87@gmail.com</span>
                                 </li>
                             </ul>
@@ -170,56 +161,13 @@
         </section>
         <!-- === About section end === -->
 
-        <!-- === Facts section start === -->
-        <!--
-        <section id="fact">
-            <h1 class="sub-heading">Facts</h1>
-            <div class="divider"></div>
-            <p class="sub-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus illo adipisci autem
-                culpa quos, cum tempore explicabo quibusdam, tenetur vel eveniet a cumque fugiat, repellat fugit ex sed
-                doloremque. Doloremque!</p>
-
-            <div class="fact-row">
-
-               
-                <div class="fact-box">
-                    <i class="fa-regular fa-face-smile"></i>
-                    <strong>50+</strong>
-                    <p>Happy Cte</p>
-                </div>
-
-                
-                <div class="fact-box">
-                    <i class="fa-regular fa-file-code"></i>
-                    <strong>60+</strong>
-                    <p>Proyect Completed</p>
-                </div>
-
-               
-                <div class="fact-box">
-                    <i class="fa-solid fa-headset"></i>
-                    <strong>24/7</strong>
-                    <p>Hours of support</p>
-                </div>
-
-                
-                <div class="fact-box">
-                    <i class="fa-solid fa-clock-rotate-left"></i>
-                    <strong>10+</strong>
-                    <p>Ending orders</p>
-                </div>
-
-            </div>
-        </section>
-    -->
-        <!-- === Facts section end === -->
-
         <!-- === Skills section start === -->
         <section id="skill">
 
-            <h1 class="sub-heading">Skills</h1>
+            <h1 class="sub-heading" data-section="skills" data-value="title">Skills</h1>
             <div class="divider"></div>
-            <p class="sub-para">I present to you my skills, where I don't just stop at the front-end; my mastery of Java
+            <p class="sub-para" data-section="skills" data-value="description">I present to you my skills, where I don't
+                just stop at the front-end; my mastery of Java
                 and my experience with the Angular framework enable me to create solid and functional web applications
                 from backend to frontend. I believe in the importance of a strong foundation in both visual design and
                 robust functionality.
@@ -327,9 +275,10 @@
         <!-- === Education section start === -->
         <section id="education">
 
-            <h1 class="sub-heading">Education</h1>
+            <h1 class="sub-heading" data-section="education" data-value="title">Education</h1>
             <div class="divider"></div>
-            <p class="sub-para">My educational journey in the field of Information Technology has been a continuous
+            <p class="sub-para" data-section="education" data-value="description">My educational journey in the field of
+                Information Technology has been a continuous
                 voyage of growth and learning. Over the years, I have delved into various aspects of IT studies, ranging
                 from fundamentals to more specialized areas. Each step of this academic journey has contributed to the
                 construction of a robust foundation of knowledge and skills, and I am committed to continuing to evolve
@@ -339,28 +288,33 @@
 
                 <!-- left col -->
                 <div class="education-cols">
-                    <h2>IT Education</h2>
+                    <h2 data-section="education" data-value="sub-title-1">IT Education</h2>
                     <div class="pro-exp">
-                        <h3>Argentina Programa #SéProgramar</h3>
-                        <span class="sp-box">2021</span>
-                        <p>The first stage of Argentina Programa is an introductory course that covers the basic
+                        <h3 data-section="education" data-value="sub-title-1-study-1">Argentina Programa #SéProgramar
+                        </h3>
+                        <span class="sp-box" data-section="education" data-value="sub-title-1-study-1-date">2021</span>
+                        <p data-section="education" data-value="sub-title-1-study-1-description">The first stage of
+                            Argentina Programa is an introductory course that covers the basic
                             fundamentals of programming: Foundations, Imperative Programming, and Object-Oriented
                             Programming.</p>
                     </div>
 
                     <div class="pro-exp">
-                        <h3>Argentina Programa #YoProgramo</h3>
-                        <span class="sp-box">2022</span>
-                        <p>It's the second stage of Argentina Programa, where knowledge is deepened, and the necessary
+                        <h3 data-section="education" data-value="sub-title-1-study-2">Argentina Programa #YoProgramo
+                        </h3>
+                        <span class="sp-box" data-section="education" data-value="sub-title-1-study-2-date">2022</span>
+                        <p data-section="education" data-value="sub-title-1-study-2-description">It's the second stage
+                            of Argentina Programa, where knowledge is deepened, and the necessary
                             skills and tools are acquired for a Full-Stack programmer. It delves into topics such as
                             Front-End, dynamic web development, Databases, good programming practices, Java EE, and
                             Spring Boot.</p>
                     </div>
 
                     <div class="pro-exp">
-                        <h3>Alura Oracle ONE</h3>
-                        <span class="sp-box">2022</span>
-                        <p>It begins with a learning path in regards to Front-End, covering the HTML5 language, CSS3 for
+                        <h3 data-section="education" data-value="sub-title-1-study-3">Alura Oracle ONE</h3>
+                        <span class="sp-box" data-section="education" data-value="sub-title-1-study-3-date">2022</span>
+                        <p data-section="education" data-value="sub-title-1-study-3-description">It begins with a
+                            learning path in regards to Front-End, covering the HTML5 language, CSS3 for
                             styling with Flexbox and Grid designs. Responsive and inclusive layouts are created. And you
                             also learn about the JavaScript and Java languages.</p>
                     </div>
@@ -371,46 +325,25 @@
 
                 <div class="education-cols">
 
-                    <h2>Language</h2>
+                    <h2 data-section="education" data-value="sub-title-2">Language</h2>
 
                     <div class="pro-exp">
-                        <h3>CUI - Centro Universitario de Idiomas</h3>
-                        <span class="sp-box">2022</span>
-                        <p>Technical English for Software Developers. Level A1.2 of the Common European Framework of
+                        <h3 data-section="education" data-value="sub-title-2-study-1">CUI - Centro Universitario de
+                            Idiomas</h3>
+                        <span class="sp-box" data-section="education" data-value="sub-title-2-study-1-date">2022</span>
+                        <p data-section="education" data-value="sub-title-2-study-1-description">Technical English for
+                            Software Developers. Level A1.2 of the Common European Framework of
                             Reference for Languages (CEFR).</p>
                     </div>
 
                     <div class="pro-exp">
-                        <h3>UNC - Faculty of Languages</h3>
-                        <span class="sp-box">2022-present</span>
-                        <p>Intensive course offered by the Faculty of Languages at the Universidad Nacional de Córdoba.
+                        <h3 data-section="education" data-value="sub-title-2-study-2">UNC - Faculty of Languages</h3>
+                        <span class="sp-box" data-section="education"
+                            data-value="sub-title-2-study-2-date">2022-present</span>
+                        <p data-section="education" data-value="sub-title-2-study-2-description">Intensive course
+                            offered by the Faculty of Languages at the Universidad Nacional de Córdoba.
                         </p>
                     </div>
-
-                    <!--
-                    <div class="my-info">
-                        <h3>Victor O</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero ipsam fugiat mollitia error.
-                            Praesentium velit fugiat, corporis adipisci sit nulla iure, beatae doloremque aspernatur
-                            quos accusamus, optio voluptatum veritatis. Officiis!</p>
-                        <ul>
-                            <li>Felipe II, Cba, Arg</li>
-                            <li>351 6715554</li>
-                            <li>victor.a87@gmail.com</li>
-                        </ul>
-                    </div>
-
-                    <h2>Education</h2>
-
-                    <div class="my-edu">
-                        <h3>Master</h3>
-                        <span class="sp-box">215-216</span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, eos.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate optio perferendis
-                            excepturi doloremque error. Optio libero nihil reiciendis vitae? Blanditiis.</p>
-                    </div>
-                    -->
-
                 </div>
             </div>
 
@@ -420,9 +353,10 @@
         <!-- === Portfolio section start === -->
         <section id="portfolio">
 
-            <h1 class="sub-heading">Jobs and Practices</h1>
+            <h1 class="sub-heading" data-section="jobsAndPractices" data-value="title">Jobs and Practices</h1>
             <div class="divider"></div>
-            <p class="sub-para">In this space, you will have the opportunity to explore some examples that illustrate
+            <p class="sub-para" data-section="jobsAndPractices" data-value="description">In this space, you will have
+                the opportunity to explore some examples that illustrate
                 the practices and projects I have undertaken. From simple practical exercises to detailed works
                 encompassing both front-end and back-end development.</p>
 
@@ -430,14 +364,15 @@
                 <div class="sub-row">
                     <div class="card">
                         <div class="cover item-a">
-                            <h1>Dental<br>Clinic</h1>
+                            <h1 data-section="jobsAndPractices" data-value="job-1">Dental<br>Clinic</h1>
                             <span class="price"></span>
                             <div class="card-back">
-                                <p>This is a web development project in which we have used Angular and leveraged the
+                                <p data-section="jobsAndPractices" data-value="job-1-description">This is a web
+                                    development project in which we have used Angular and leveraged the
                                     capabilities of Gsap
-                                    <br>
-                                    <a href="https://odontologia-janco.web.app/" target="_blank">Go</a>
                                 </p>
+                                <a href="https://odontologia-janco.web.app/" target="_blank"><strong
+                                        data-section="jobsAndPractices" data-value="job-a">Go</strong></a>
 
                             </div>
 
@@ -447,16 +382,17 @@
                 <div class="sub-row">
                     <div class="card">
                         <div class="cover item-b">
-                            <h1>Portfolio<br>AP</h1>
+                            <h1 data-section="jobsAndPractices" data-value="job-2">Portfolio<br>AP</h1>
 
                             <div class="card-back">
-                                <p>Work has been carried out on both the front-end and the back-end. For the interface,
+                                <p data-section="jobsAndPractices" data-value="job-2-description">Work has been carried
+                                    out on both the front-end and the back-end. For the interface,
                                     Angular has been employed, and on the server, we used Java, Hibernate, and Spring
                                     Boot. Techniques have been applied, such as implementing authentication methods, as
                                     well as interceptors to manage various aspects of data flow and control.
-                                    <br>
-                                    <a href="https://portfoliovao.web.app/" target="_blank">Go</a>
                                 </p>
+                                <a href="https://portfoliovao.web.app/" target="_blank"><strong
+                                        data-section="jobsAndPractices" data-value="job-a">Go</strong></a>
 
                             </div>
                         </div>
@@ -465,14 +401,15 @@
                 <div class="sub-row">
                     <div class="card">
                         <div class="cover item-c">
-                            <h1>Text<br>Encrypter</h1>
+                            <h1 data-section="jobsAndPractices" data-value="job-3">Text<br>Encrypter</h1>
                             <div class="card-back">
-                                <p>By integrating HTML, CSS, and JavaScript, we created a functional text encryptor.
+                                <p data-section="jobsAndPractices" data-value="job-3-description">By integrating HTML,
+                                    CSS, and JavaScript, we created a functional text encryptor.
                                     HTML structured the interface, CSS added style, and JavaScript implemented
                                     encryption algorithms.
-                                    <br>
-                                    <a href="https://encriptador-texto.web.app/" target="_blank">Go</a>
                                 </p>
+                                <a href="https://encriptador-texto.web.app/" target="_blank"><strong
+                                        data-section="jobsAndPractices" data-value="job-a">Go</strong></a>
                             </div>
                         </div>
                     </div>
@@ -480,12 +417,14 @@
                 <div class="sub-row">
                     <div class="card">
                         <div class="cover item-d">
-                            <h1>Movie<br>Search</h1>
+                            <h1 data-section="jobsAndPractices" data-value="job-4">Movie<br>Search</h1>
                             <div class="card-back">
-                                <p>A movie search engine, powered by an API, built with Angular. It uses RxJS operators
+                                <p data-section="jobsAndPractices" data-value="job-4-description">A movie search engine,
+                                    powered by an API, built with Angular. It uses RxJS operators
                                     to optimize performance and provide an efficient search experience.
-                                    <br>
-                                    <a href="https://appbuscadordepeliculas.web.app/" target="_blank">Go</a>
+                                </p>
+                                <a href="https://appbuscadordepeliculas.web.app/" target="_blank"><strong
+                                        data-section="jobsAndPractices" data-value="job-a">Go</strong></a>
                             </div>
                         </div>
                     </div>
@@ -496,108 +435,12 @@
         </section>
         <!-- === Portfolio section end === -->
 
-        <!-- === Service section start === -->
-        <!--
-        <section id="service">
-
-            <h1 class="sub-heading">Service</h1>
-            <div class="divider"></div>
-            <p class="sub-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere mollitia architecto
-                dolorum fugiat numquam vel cum dignissimos commodi amet eveniet, nesciunt obcaecati ullam necessitatibus
-                in ad aut, perferendis nihil inventore.</p>
-
-            <div class="service-row">
-
-                
-                <div class="service-box">
-                    <div class="icon">
-                        <i class="fa-solid fa-briefcase"></i>
-                    </div>
-                    <div class="ser-info">
-                        <h4>lorem ipsum</h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam vitae culpa harum
-                            necessitatibus quisquam consectetur ullam deleniti corporis ad eveniet ipsa quasi fuga, iste
-                            soluta ut, assumenda quis illum? Veniam.</p>
-                    </div>
-                </div>
-
-                
-                <div class="service-box">
-                    <div class="icon">
-                        <i class="fa-solid fa-list-check"></i>
-                    </div>
-                    <div class="ser-info">
-                        <h4>lorem ipsum</h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam vitae culpa harum
-                            necessitatibus quisquam consectetur ullam deleniti corporis ad eveniet ipsa quasi fuga, iste
-                            soluta ut, assumenda quis illum? Veniam.</p>
-                    </div>
-                </div>
-
-                
-                <div class="service-box">
-                    <div class="icon">
-                        <i class="fa-solid fa-chart-bar"></i>
-                    </div>
-                    <div class="ser-info">
-                        <h4>lorem ipsum</h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam vitae culpa harum
-                            necessitatibus quisquam consectetur ullam deleniti corporis ad eveniet ipsa quasi fuga, iste
-                            soluta ut, assumenda quis illum? Veniam.</p>
-                    </div>
-                </div>
-
-                
-                <div class="service-box">
-                    <div class="icon">
-                        <i class="fa-solid fa-binoculars"></i>
-                    </div>
-                    <div class="ser-info">
-                        <h4>lorem ipsum</h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam vitae culpa harum
-                            necessitatibus quisquam consectetur ullam deleniti corporis ad eveniet ipsa quasi fuga, iste
-                            soluta ut, assumenda quis illum? Veniam.</p>
-                    </div>
-                </div>
-
-                
-                <div class="service-box">
-                    <div class="icon">
-                        <i class="fa-solid fa-sun"></i>
-                    </div>
-                    <div class="ser-info">
-                        <h4>lorem ipsum</h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam vitae culpa harum
-                            necessitatibus quisquam consectetur ullam deleniti corporis ad eveniet ipsa quasi fuga, iste
-                            soluta ut, assumenda quis illum? Veniam.</p>
-                    </div>
-                </div>
-
-                
-                <div class="service-box">
-                    <div class="icon">
-                        <i class="fa-brands fa-slack"></i>
-                    </div>
-                    <div class="ser-info">
-                        <h4>lorem ipsum</h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam vitae culpa harum
-                            necessitatibus quisquam consectetur ullam deleniti corporis ad eveniet ipsa quasi fuga, iste
-                            soluta ut, assumenda quis illum? Veniam.</p>
-                    </div>
-                </div>
-
-            </div>
-
-        </section>
-        -->
-        <!-- === Service section end === -->
-
         <!-- === Contact section start === -->
         <section id="contact">
 
-            <h1 class="sub-heading">Contact</h1>
+            <h1 class="sub-heading" data-section="contact" data-value="title">Contact</h1>
             <div class="divider"></div>
-            <p class="sub-para">
+            <p class="sub-para" data-section="contact" data-value="description">
                 If you would like more information about my experience, skills and contributions, please do not hesitate
                 to contact me. I'm excited to explore collaboration opportunities and share how I can add value to your
                 team.</p>
@@ -613,7 +456,7 @@
                             <i class="fa-solid fa-envelope"></i>
                         </div>
                         <div class="info">
-                            <h4>Email:</h4>
+                            <h4 data-section="contact" data-value="item-1">Email:</h4>
                             <p>victor.oviedo.a87@gmail.com</p>
                         </div>
                     </div>
@@ -624,7 +467,7 @@
                             <i class="fa-solid fa-phone"></i>
                         </div>
                         <div class="info">
-                            <h4>Call:</h4>
+                            <h4 data-section="contact" data-value="item-2">Call:</h4>
                             <p>+54 351 6 71 5554</p>
                         </div>
                     </div>
@@ -635,7 +478,7 @@
                             <i class="fa-solid fa-location-dot"></i>
                         </div>
                         <div class="info">
-                            <h4>Location:</h4>
+                            <h4 data-section="contact" data-value="item-3">Location:</h4>
                             <p>Cordoba, Argentina</p>
                         </div>
                     </div>
@@ -657,7 +500,7 @@
 
                     <form action="https://formsubmit.co/9da2a9d6ae2deba8aa1598b559602117" method="POST">
 
-                        <input type="text" name="name" id="name" placeholder="Your Name">
+                        <input type="text" name="name" id="name" placeholder="Your name">
                         <input type="email" name="email" id="email" placeholder="Your Email">
                         <input type="text" name="subject" id="subject" placeholder="Subject">
                         <textarea name="msg" id="msg" rows="9" placeholder="Your Message"></textarea>

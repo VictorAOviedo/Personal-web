@@ -48,17 +48,14 @@
         "title": "Trabajos y Prácticas",
         "description": "En este espacio, tendrás la oportunidad de explorar algunos ejemplos que ilustran las prácticas y trabajos que he llevado a cabo. Desde ejercicios prácticos sencillos hasta trabajos detallados que van desde el desarrollo front-end y back-end",
         "job-1": "Clínica<br>Dental",
-        "job-1-description": "Se trata de un proyecto de desarrollo web en el cual hemos empleado Angular y aprovechado las capacidades de Gsap.",
-        "job-1-a": "Ver más",
+        "job-1-description": "Se trata de un proyecto de desarrollo web en el cual hemos empleado Angular y aprovechado las capacidades de Gsap.",    
         "job-2": "Portfolio<br>AP",
-        "job-2-description": "Work has been carried out on both the front-end and the back-end. For the interface, Angular has been employed, and on the server, we used Java, Hibernate, and Spring Boot. Techniques have been applied, such as implementing authentication methods, as well as interceptors to manage various aspects of data flow and control.",
-        "job-2-a": "Ver más",
+        "job-2-description": "Work has been carried out on both the front-end and the back-end. For the interface, Angular has been employed, and on the server, we used Java, Hibernate, and Spring Boot. Techniques have been applied, such as implementing authentication methods, as well as interceptors to manage various aspects of data flow and control.",   
         "job-3": "Encriptador<br>de textos",
-        "job-3-description": "Mediante la integración de HTML, CSS y JavaScript, creamos un encriptador de texto funcional. HTML estructuró la interfaz, CSS aportó estilo y JavaScript implementó algoritmos de encriptación.",
-        "job-3-a": "Ver más",
+        "job-3-description": "Mediante la integración de HTML, CSS y JavaScript, creamos un encriptador de texto funcional. HTML estructuró la interfaz, CSS aportó estilo y JavaScript implementó algoritmos de encriptación.",   
         "job-4": "Buscador<br>de Películas",
         "job-4-description": "Un motor de búsqueda de películas, alimentado por una API, creado con Angular. Utiliza operadores de RxJS para optimizar el rendimiento y ofrecer una experiencia de búsqueda eficiente",
-        "job-4-a": "Ver más"
+        "job-a": "Ver más"
     },
     "contact": {
         "title": "Contacto",

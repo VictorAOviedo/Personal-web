@@ -48,17 +48,14 @@
         "title": "Jobs and Practices",
         "description": "In this space, you will have the opportunity to explore some examples that illustrate the practices and projects I have undertaken. From simple practical exercises to detailed works encompassing both front-end and back-end development.",
         "job-1": "Dental<br>Clinic",
-        "job-1-description": "This is a web development project in which we have used Angular and leveraged the capabilities of Gsap",
-        "job-1-a": "Go",
+        "job-1-description": "This is a web development project in which we have used Angular and leveraged the capabilities of Gsap",   
         "job-2": "Portfolio<br>AP",
-        "job-2-description": "Work has been carried out on both the front-end and the back-end. For the interface, Angular has been employed, and on the server, we used Java, Hibernate, and Spring Boot. Techniques have been applied, such as implementing authentication methods, as well as interceptors to manage various aspects of data flow and control.",
-        "job-2-a": "Go",
+        "job-2-description": "Work has been carried out on both the front-end and the back-end. For the interface, Angular has been employed, and on the server, we used Java, Hibernate, and Spring Boot. Techniques have been applied, such as implementing authentication methods, as well as interceptors to manage various aspects of data flow and control.",   
         "job-3": "Text<br>Encrypter",
-        "job-3-description": "By integrating HTML, CSS, and JavaScript, we created a functional text encryptor. HTML structured the interface, CSS added style, and JavaScript implemented encryption algorithms.",
-        "job-3-a": "Go",
+        "job-3-description": "By integrating HTML, CSS, and JavaScript, we created a functional text encryptor. HTML structured the interface, CSS added style, and JavaScript implemented encryption algorithms.",   
         "job-4": "Movie<br>Search",
         "job-4-description": "A movie search engine, powered by an API, built with Angular. It uses RxJS operators to optimize performance and provide an efficient search experience.",
-        "job-4-a": "Go"
+        "job-a": "Go"
     },
     "contact": {
         "title": "Contact",
