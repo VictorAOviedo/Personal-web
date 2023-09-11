@@ -1,14 +1,14 @@
 {
     "navBar": {
         "li1": "Home",
-        "li2": "Acerca de mi",
+        "li2": "Acerca de mí",
         "li3": "Trabajos y Prácticas",
         "li4": "Servicios",
         "li5": "Contacto"
     },
     "about-me": {
-        "title": "Acerca de mi",
-        "description": "Soy un aprendiz apasionado, siempre buscando formas de mantenerme al día con las últimas tendencias tecnológicas y mejores prácticas en desarrollo. La resolución de problemas es mi enfoque principal; disfruto descomponer desafíos complejos en componentes manejables y trabajar en soluciones efectivas.<br>Fuera del mundo del desarrollo, me gusta tambien las finanzas y los deportes, disfruto manteniéndome activo. Creo que el equilibrio entre el trabajo y el tiempo personal es esencial para la creatividad y el bienestar general.<br>Este portafolio es una ventana a mi viaje como Desarrollador Full Stack y a los proyectos en los que he invertido mi pasión y habilidades.",
+        "title": "Acerca de mí",
+        "description": "Soy un aprendiz apasionado, siempre buscando formas de mantenerme al día con las últimas tendencias tecnológicas y mejores prácticas en desarrollo. La resolución de problemas es mi enfoque principal; disfruto descomponer desafíos complejos en componentes manejables y trabajar en soluciones efectivas. <br>Fuera del mundo del desarrollo, me gustan también las finanzas y los deportes, disfruto manteniéndome activo. Creo que el equilibrio entre el trabajo y el tiempo personal es esencial para la creatividad y el bienestar general.<br>Este portafolio es una ventana a mi viaje como Desarrollador Full Stack y a los proyectos en los que he invertido mi pasión y habilidades.",
         "sub-title": "Mis datos",
         "item-1": "Nombre:",
         "item-2": "Apellido:",
@@ -21,16 +21,16 @@
     },
     "skills": {
         "title": "Skills",
-        "description": "Te presento mis habilidades en donde no solo me detengo en el front-end; mi dominio de Java y mi experiencia en el framework Angular me permiten crear aplicaciones web sólidas y funcionales desde el backend hasta el frontend. Creo en la importancia de una base sólida tanto en el diseño visual como en la funcionalidad robusta.<br>Acompañando mis habilidades duras se encuentran mis habilidades blandas. Mi enfoque analítico y resolución de problemas me ayudan a desglosar desafíos complejos en soluciones manejables. Como autodidacta, me apasiona aprender e investigar distintos recursos y lenguajes de programación."
+        "description": "Te presento mis habilidades en donde no solo me detengo en el front-end; mi dominio de Java y mi experiencia en el framework Angular me permiten crear aplicaciones web sólidas y funcionales, desde el backend hasta el frontend. Creo en la importancia de una base sólida tanto en el diseño visual como en la funcionalidad robusta.<br>Acompañando mis habilidades duras se encuentran mis habilidades blandas. Mi enfoque analítico y resolución de problemas me ayudan a desglosar desafíos complejos en soluciones manejables. Como autodidacta, me apasiona aprender e investigar distintos recursos y lenguajes de programación."
     },
     "education": {
         "title": "Educación",
-        "description": "Mi trayectoria educativa en el ámbito de Tecnologías de la Información ha sido un viaje en constante crecimiento y aprendizaje. A lo largo de los años, he explorado diversos aspectos del estudio en IT, desde los fundamentos hasta áreas más especializadas. Cada paso de este recorrido académico ha contribuido a la construcción de una base sólida de conocimientos y habilidades, y me veo comprometido a seguir evolucionando y adaptandome a los cambios. Aqui veras un resumen de mis estudios en el area IT.",
+        "description": "Mi trayectoria educativa en el ámbito de Tecnologías de la Información ha sido un viaje en constante crecimiento y aprendizaje. A lo largo de los años, he explorado diversos aspectos del estudio en IT, desde los fundamentos hasta áreas más especializadas. Cada paso de este recorrido académico ha contribuido a la construcción de una base sólida de conocimientos y habilidades, y me veo comprometido a seguir evolucionando y adaptándome a los cambios. Aquí verás un resumen de mis estudios en el área IT..",
         "sub-title-1": "Educación IT",
         "sub-title-2": "Idioma",
         "sub-title-1-study-1": "ARGENTINA PROGRAMA #SÉPROGRAMAR",
         "sub-title-1-study-1-date": "2021",
-        "sub-title-1-study-1-description": "La primera etapa de Argentina Programa es un curso introductorio en el que se ve los fundamentos basicos de la programación: Fundamentos, Programación imperativa y Programación con objetos.",
+        "sub-title-1-study-1-description": "La primera etapa de Argentina Programa es un curso introductorio en el que se ve los fundamentos básicos de la programación: Fundamentos, Programación imperativa y Programación con objetos.",
         "sub-title-1-study-2": "ARGENTINA PROGRAMA #YOPROGRAMO",
         "sub-title-1-study-2-date": "2021",
         "sub-title-1-study-2-description": "Es la segunda etapa de Argentina Programa, se profundizan conocimientos y se adquiere las habilidades y herramientas necesarias para un programador Full-Stack. Se profundiza sobre temas de Front-End, desarrollo web dinámico, Bases de datos, buenas practicas de programación, Java EE y Spring boot",
@@ -50,11 +50,11 @@
         "job-1": "Clínica<br>Dental",
         "job-1-description": "Se trata de un proyecto de desarrollo web en el cual hemos empleado Angular y aprovechado las capacidades de Gsap.",    
         "job-2": "Portfolio<br>AP",
-        "job-2-description": "Work has been carried out on both the front-end and the back-end. For the interface, Angular has been employed, and on the server, we used Java, Hibernate, and Spring Boot. Techniques have been applied, such as implementing authentication methods, as well as interceptors to manage various aspects of data flow and control.",   
+        "job-2-description": "Se ha trabajado tanto en el front-end como en el back-end. Para la interfaz, se ha utilizado Angular, y en el servidor, hemos empleado Java, Hibernate y Spring Boot. Se han aplicado técnicas, como la implementación de métodos de autenticación, así como interceptores para gestionar diversos aspectos del flujo de datos y control.",   
         "job-3": "Encriptador<br>de textos",
         "job-3-description": "Mediante la integración de HTML, CSS y JavaScript, creamos un encriptador de texto funcional. HTML estructuró la interfaz, CSS aportó estilo y JavaScript implementó algoritmos de encriptación.",   
         "job-4": "Buscador<br>de Películas",
-        "job-4-description": "Un motor de búsqueda de películas, alimentado por una API, creado con Angular. Utiliza operadores de RxJS para optimizar el rendimiento y ofrecer una experiencia de búsqueda eficiente",
+        "job-4-description": "Un motor de búsqueda de películas, alimentado por una API, creado con Angular. Utiliza operadores de RxJS para optimizar el rendimiento y ofrecer una experiencia de búsqueda eficiente.",
         "job-a": "Ver más"
     },
     "contact": {

@@ -208,7 +208,7 @@ main {
 #home {
     height: 100vh;
     width: 100%;
-    background-image: url("/asset/dev-background.jpg");
+    background-image: url("/asset/dev03.jpg");
     background-size: cover;
     background-attachment: fixed;
     display: flex;
